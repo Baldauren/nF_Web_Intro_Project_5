@@ -1,0 +1,82 @@
+.exp__item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container__exp {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 80px 80px 160px 80px;
+}
+
+.exp__list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 48px;
+}
+
+.exp__header {
+  font-family: "Courier New";
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.exp__date {
+  font-family: "Courier New";
+  font-weight: 700;
+  font-size: 14px;
+  width: 143px;
+}
+
+.exp__about-work {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  width: 467px;
+}
+
+.exp__about-city {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.exp__about-comp {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.exp__about-cityandcomp {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.exp__about-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.exp__about {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.exp__item:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.exp__item:hover .exp__header {
+  color: blue;
+}
+
+.exp__item:hover .exp__about-work {
+  font-size: 16px;
+}

@@ -1,0 +1,37 @@
+.container__promo {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  padding: 160px 80px 160px 80px;
+}
+
+.promo__main-text {
+  font-family: "Courier New";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.promo__descr {
+  font-family: Kanit;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 29.9px;
+}
+
+.promo__btn-check {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgba(253, 90, 20, 1);
+  padding: 16px 24px 16px 24px;
+  border-radius: 2px;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+.promo__btn-check:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 99, 20, 0.5);
+}

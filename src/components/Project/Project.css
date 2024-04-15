@@ -1,0 +1,81 @@
+.project__title {
+  font-family: "Courier New";
+  font-size: 60px;
+  font-weight: 700;
+  padding: 100px 80px 64px 80px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.project__title:hover {
+  transform: scale(1.1);
+  color: rgb(69, 69, 114);
+}
+
+.project__about {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 40px;
+}
+
+.project__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project__wrapper-item {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.project__name {
+  font-family: "Courier New";
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.project__img {
+  width: 626px;
+  height: 388px;
+  border: solid rgba(253, 90, 20, 1) 4px;
+}
+
+.project__descr {
+  font-family: Kanit;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.project__about-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 186px;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 80px 64px 80px;
+}
+
+.project__stack {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill {
+  border-radius: 999px;
+  padding: 6px 14px;
+  background-color: rgb(65, 53, 79);
+  font-size: 16px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+  color: rgb(70, 70, 149);
+}
